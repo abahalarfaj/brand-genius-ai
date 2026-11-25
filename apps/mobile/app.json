@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "مِيعاد",
+    "slug": "miad",
+    "scheme": "miad",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {},
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router", "expo-localization", "expo-font"],
+    "extra": {
+      "supportsRTL": true,
+      "forcesRTL": true
+    }
+  }
+}

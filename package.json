@@ -1,0 +1,17 @@
+{
+  "name": "miad",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "mobile": "npm run start -w @miad/mobile"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "^5.1.2"
+  }
+}
